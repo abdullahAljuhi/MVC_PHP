@@ -1,0 +1,17 @@
+{
+    "name": "abdullah/e_library",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "./Core",
+            "App\\": "./App"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "abdallah aljuhi",
+            "email": "abdallahalju7@gmail.com"
+        }
+    ],
+    "require": {}
+}

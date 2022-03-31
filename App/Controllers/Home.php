@@ -15,10 +15,7 @@ class Home extends \Core\Controller
      * @return void
      */
     public function indexAction(){
-        View::render('front/index.php',[
-            'username'=>'ali',
-            'friends'=>['badr','omer']
-        ]);
+        View::render('front/index.php');
     }
 
     // protected function before(){echo " before";}
